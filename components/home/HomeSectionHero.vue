@@ -24,13 +24,13 @@ import Vue from 'vue'
 export default Vue.extend({
   mounted() {
     const logo = document.getElementById('logo')
-    const bounds = logo.getBoundingClientRect()
-    function rotateLogo(e) {
+    const bounds = logo!.getBoundingClientRect()
+    function rotateLogo(e: any) {
       const centerX = bounds.left + bounds.width / 2 - window.pageXOffset
       const centerY = bounds.top + bounds.height / 2 - window.pageYOffset
       const radians = Math.atan2(e.clientX - centerX, e.clientY - centerY)
       const degree = radians * (180 / Math.PI) * -1 + 180
-      logo.style.transform = 'rotate(' + degree + 'deg)'
+      logo!.style.transform = 'rotate(' + degree + 'deg)'
     }
     window.addEventListener('mousemove', rotateLogo)
   },
