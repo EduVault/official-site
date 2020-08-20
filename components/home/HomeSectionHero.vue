@@ -25,7 +25,7 @@ export default Vue.extend({
   mounted() {
     const logo = document.getElementById('logo')
     const bounds = logo!.getBoundingClientRect()
-    function rotateLogo(e: any) {
+    function rotateLogo(e: MouseEvent) {
       const centerX = bounds.left + bounds.width / 2 - window.pageXOffset
       const centerY = bounds.top + bounds.height / 2 - window.pageYOffset
       const radians = Math.atan2(e.clientX - centerX, e.clientY - centerY)
