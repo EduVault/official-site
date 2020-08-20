@@ -1,6 +1,14 @@
 <template>
-  <div class="container">
+  <div class="main">
+    <the-navbar></the-navbar>
     <home-section-hero></home-section-hero>
+    <home-section-about></home-section-about>
+    <home-section-data></home-section-data>
+    <home-section-education></home-section-education>
+    <home-section-anywhere></home-section-anywhere>
+    <home-section-try-now></home-section-try-now>
+    <home-section-developers></home-section-developers>
+    <home-section-contact></home-section-contact>
   </div>
 </template>
 
@@ -11,9 +19,5 @@ export default Vue.extend({})
 </script>
 
 <style>
-/* Sample `apply` at-rules with Tailwind CSS
-.container {
-@apply min-h-screen flex justify-center items-center text-center mx-auto;
-}
-*/
+@import '~/assets/css/theme.scss';
 </style>

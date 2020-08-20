@@ -51,10 +51,15 @@ export default {
   /*
    ** Nuxt.js modules
    */
-  modules: [],
+  modules: ['nuxt-webfontloader'],
   /*
    ** Build configuration
    ** See https://nuxtjs.org/api/configuration-build/
    */
   build: {},
+  webfontloader: {
+    google: {
+      families: ['inter:400,700'],
+    },
+  },
 }
