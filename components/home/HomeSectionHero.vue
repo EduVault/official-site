@@ -26,8 +26,8 @@ export default Vue.extend({
     const logo = document.getElementById('logo')
     const bounds = logo!.getBoundingClientRect()
     let prevScrollY = window.scrollY
-    let prevDegree = null
-    let scrolling = false
+    let prevDegree = 0
+    let scrolling: boolean = false
 
     function rotateLogo(e: MouseEvent) {
       if (!scrolling) {
