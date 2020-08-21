@@ -2,7 +2,7 @@
   <div id="contact" class="bg-tealgreen text-white section">
     <h3 class="mb-10 text-center">CONTACT</h3>
     <img
-      class="max-w-xs mx-auto my-5"
+      class="max-w-xs max-w-full mx-auto my-5"
       src="@/assets/img/eduvault-logo-light.png"
       alt=""
     />

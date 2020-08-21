@@ -9,7 +9,7 @@
       unlocks new possibilities for interoperability between them.
     </p>
     <img
-      class="max-w-xs mx-auto my-10"
+      class="md:max-w-sm max-w-xs max-w-full mx-auto my-10"
       src="@/assets/img/ipfc-login.png"
       alt=""
     />

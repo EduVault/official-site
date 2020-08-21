@@ -7,7 +7,7 @@
     </p>
 
     <img
-      class="md:max-w-lg max-w-sm mx-auto my-5"
+      class="md:max-w-lg max-w-xs max-w-full mx-auto my-5"
       src="@/assets/img/ipfc-extension-demo.gif"
       alt=""
     />

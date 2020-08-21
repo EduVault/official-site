@@ -2,7 +2,7 @@
   <div class="px-10 pb-10">
     <img
       id="logo"
-      class="px-2 max-w-sm mx-auto"
+      class="px-2 md:max-w-sm max-w-xs max-w-full mx-auto"
       src="~/assets/img/eduvault-logo.png"
       alt="EDUVAULT logo"
     />
