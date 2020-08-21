@@ -1,10 +1,27 @@
 <template>
-  <div id="about" class="bg-orange section relative">
-    <img class="burn absolute top-10 right-0" src="@/assets/img/data-bg.png" />
-    <h1 class="text-center text-white">BRING</h1>
-    <h1 class="text-center text-white">YOUR</h1>
-    <h1 class="text-center text-white">OWN</h1>
-    <h1 class="text-center text-white">DATA</h1>
+  <div id="about" class="min-h-screen bg-orange section relative">
+    <parallax
+      class="burn absolute -bottom-16 right-0 mt-10"
+      :full-view="false"
+      :speed-factor="0.05"
+    >
+      <img class="burn max-h-screen" src="@/assets/img/data-bg.png" />
+    </parallax>
+    <parallax class="absolute top-1/2 left-1/6" :speed-factor="0.1">
+      <h1 class="text-center text-white">BRING</h1>
+    </parallax>
+    <parallax class="absolute top-1/2 left-1/3" :speed-factor="0.18">
+      <h1 class="text-center text-white">YOUR</h1>
+    </parallax>
+
+    <parallax class="absolute top-1/2 right-1/3" :speed-factor="0.08">
+      <h1 class="text-center text-white">OWN</h1>
+    </parallax>
+
+    <parallax class="absolute top-1/2 right-1/6" :speed-factor="0.23">
+      <h1 class="text-center text-white">DATA</h1>
+    </parallax>
+    <div class="spacer min-h-screen50"></div>
     <h3 class="text-gray-300 mb-10 text-center">
       and unlock the power of
       <h3 class="text-white">interoperability</h3>
@@ -22,7 +39,12 @@
   </div>
 </template>
 
-<script lang="ts">
-import Vue from 'vue'
-export default Vue.extend({})
+<script>
+import Parallax from './Parallax.vue'
+
+export default {
+  components: {
+    Parallax,
+  },
+}
 </script>

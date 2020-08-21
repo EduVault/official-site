@@ -21,6 +21,8 @@
 
 <script lang="ts">
 import Vue from 'vue'
+import { anyInView } from '../../helpers/isInView'
+
 export default Vue.extend({
   mounted() {
     const logo = document.getElementById('logo')
@@ -50,7 +52,7 @@ export default Vue.extend({
     }
     window.addEventListener('mousemove', rotateLogo)
     window.onscroll = () => {
-      rotateOnScroll()
+      if (anyInView(logo!)) rotateOnScroll()
     }
   },
   methods: {
