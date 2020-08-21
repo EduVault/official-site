@@ -31,6 +31,22 @@ module.exports = {
       screen50: '50vh',
       screen75: '75vh',
     },
+    maxWidth: {
+      '0': '0',
+      '1/4': '25%',
+      '1/2': '50%',
+      '3/4': '75%',
+      full: '100%',
+      screen: '100vh',
+      screen25: '25vh',
+      screen50: '50vh',
+      screen75: '75vh',
+      xs: '20rem',
+      sm: '24rem',
+      md: '28rem',
+      lg: '32rem',
+      xl: '36rem',
+    },
     extend: {
       colors: {
         orange: '#F5841F',

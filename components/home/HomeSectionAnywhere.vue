@@ -1,28 +1,31 @@
 <template>
   <div class="bg-darkblue text-white section">
-    <h3 class="mb-5">ANYWHERE</h3>
-    <p class="mb-3">
-      No one app or platform can solve all your unique educational needs.
-      <strong class="font-black">
-        Syncing your data across devices and apps</strong
-      >
-      unlocks new possibilities for interoperability between them.
-    </p>
-    <img
-      class="md:max-w-sm max-w-xs max-w-full mx-auto my-10"
-      src="@/assets/img/ipfc-login.png"
-      alt=""
-    />
-    <p class="mb-3 max-w-sm md:max-w-xl mr-auto">
-      Holding data hostage and trying to provide every service users might need
-      leads to <strong class="font-black">monopoly</strong>, stagnation, and
-      bloat.
-    </p>
-    <p class="mb-3 max-w-sm md:max-w-xl mr-auto">
-      Letting users leave at any time with their data leads to a healthier, more
-      <strong class="font-black">diverse</strong>, and more specialized app
-      ecosystem.
-    </p>
+    <div class="section-wrap">
+      <h3 class="mb-5">ANYWHERE</h3>
+      <p class="mb-3">
+        No one app or platform can solve all your unique educational needs.
+        <strong class="font-black">
+          Syncing your data across devices and apps</strong
+        >
+        unlocks new possibilities for interoperability between them.
+      </p>
+      <img
+        class="max-w-xs mx-auto my-10"
+        src="@/assets/img/ipfc-login.png"
+        alt=""
+      />
+      <p class="mb-3 max-w-sm md:max-w-xl mr-auto">
+        Holding data hostage and trying to provide every service users might
+        need leads to <strong class="font-black">monopoly</strong>, stagnation,
+        and bloat.
+      </p>
+      <p class="mb-3 max-w-sm md:max-w-xl mr-auto">
+        Letting users leave at any time with their data leads to a healthier,
+        more
+        <strong class="font-black">diverse</strong>, and more specialized app
+        ecosystem.
+      </p>
+    </div>
   </div>
 </template>
 

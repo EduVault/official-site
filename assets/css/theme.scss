@@ -1,7 +1,13 @@
 .section {
-  @apply p-10
+  @apply p-10;
 }
 
+.section-wrap {
+  @screen md {
+    @apply max-w-3/4;
+    @apply m-auto
+  }
+}
 
 .burn {
   mix-blend-mode: color-burn;

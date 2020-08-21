@@ -1,21 +1,25 @@
 <template>
-  <div class="px-10 pb-10">
-    <img
-      id="logo"
-      class="px-2 md:max-w-sm max-w-xs max-w-full mx-auto"
-      src="~/assets/img/eduvault-logo.png"
-      alt="EDUVAULT logo"
-    />
-    <h1 class="text-center">EDUVAULT</h1>
-    <h2 class="text-center">YOUR DATA</h2>
-    <h2 class="text-center">YOUR EDUCATION</h2>
-    <h2 class="text-center">ANYWHERE</h2>
-    <p
-      class="bg-orange text-center text-white py-1 px-2 mt-2 w-32 rounded mx-auto cursor-pointer"
-      @click="scrolltoEl('try-now')"
-    >
-      TRY NOW
-    </p>
+  <div class="px-10 pb-10 h-screen grid sm:grid-cols-2">
+    <div class="md:max-w-3/4 m-auto">
+      <img
+        id="logo"
+        class="px-2 md:max-w-sm max-w-xs max-w-full mx-auto"
+        src="~/assets/img/eduvault-logo.png"
+        alt="EDUVAULT logo"
+      />
+    </div>
+    <div class="my-auto flex-col">
+      <h1 class="text-center">EDUVAULT</h1>
+      <h2 class="text-center">YOUR DATA</h2>
+      <h2 class="text-center">YOUR EDUCATION</h2>
+      <h2 class="text-center">ANYWHERE</h2>
+      <p
+        class="bg-orange text-center text-white py-1 px-2 mt-2 w-32 rounded mx-auto cursor-pointer"
+        @click="scrolltoEl('try-now')"
+      >
+        TRY NOW
+      </p>
+    </div>
   </div>
 </template>
 
