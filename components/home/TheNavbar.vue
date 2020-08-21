@@ -1,13 +1,13 @@
 <template>
   <div class="mx-5 mt-5">
     <ul class="flex justify-evenly">
-      <li class="cursor-pointer" @click="scroll('about')">
+      <li class="cursor-pointer" @click="scrollToEl('about')">
         <h4 class="spread-hover">ABOUT</h4>
       </li>
-      <li class="cursor-pointer" @click="scroll('developers')">
+      <li class="cursor-pointer" @click="scrollToEl('developers')">
         <h4 class="spread-hover">DEVELOPERS</h4>
       </li>
-      <li class="cursor-pointer" @click="scroll('contact')">
+      <li class="cursor-pointer" @click="scrollToEl('contact')">
         <h4 class="spread-hover">CONTACT</h4>
       </li>
     </ul>
@@ -18,7 +18,7 @@
 import Vue from 'vue'
 export default Vue.extend({
   methods: {
-    scroll: (anchor: string) => {
+    scrollToEl: (anchor: string) => {
       const element = document.querySelector('#' + anchor)
       const topPos = element!.getBoundingClientRect().top + window.pageYOffset
       window.scrollTo({
