@@ -6,7 +6,7 @@
         src="@/assets/img/fingerprint.png"
       />
       <h3 class="mb-5 text-right">YOUR EDUCATION</h3>
-      <p class="mb-3 max-w-sm md:max-w-xl ml-auto">
+      <p class="mb-3 max-w-sm md:max-w-xl sm:max-w-xxs ml-auto">
         Personalized, AI-guided education is coming. But for it to be effective,
         the <strong>AI needs to know everything you know</strong>. How can we
         avoid giving giant corporations a dystopian amount of insight into, and

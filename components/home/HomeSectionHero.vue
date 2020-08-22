@@ -3,7 +3,7 @@
     <div class="md:max-w-3/4 m-auto">
       <img
         id="logo"
-        class="px-2 md:max-w-sm max-w-xs max-w-full mx-auto"
+        class="px-2 md:max-w-sm sm:max-w-xxs max-w-xs max-w-full mx-auto"
         src="~/assets/img/eduvault-logo.png"
         alt="EDUVAULT logo"
       />
@@ -25,7 +25,7 @@
 
 <script lang="ts">
 import Vue from 'vue'
-import { anyInView } from '../../helpers/isInView'
+import { topBotInView } from '../../helpers/isInView'
 
 export default Vue.extend({
   mounted() {
@@ -36,7 +36,7 @@ export default Vue.extend({
     let scrolling: boolean = false
 
     function rotateLogo(e: MouseEvent) {
-      if (!scrolling) {
+      if (!scrolling && topBotInView(logo!)) {
         const centerX = bounds.left + bounds.width / 2 - window.pageXOffset
         const centerY = bounds.top + bounds.height / 2 - window.pageYOffset
         const radians = Math.atan2(e.clientX - centerX, e.clientY - centerY)
@@ -56,7 +56,7 @@ export default Vue.extend({
     }
     window.addEventListener('mousemove', rotateLogo)
     window.onscroll = () => {
-      if (anyInView(logo!)) rotateOnScroll()
+      if (topBotInView(logo!)) rotateOnScroll()
     }
   },
   methods: {

@@ -24,7 +24,7 @@
       <div class="grid sm:grid-cols-2 m-auto">
         <a class="my-auto pb-5" href="https://www.ipfc.tech">
           <img
-            class="max-w-sm mx-auto mt-5"
+            class="max-w-sm mx-auto mt-5 sm:max-w-xxs"
             src="@/assets/img/ipfc-demo.gif"
             alt=""
           />
@@ -38,7 +38,7 @@
           href="https://chrome.google.com/webstore/detail/inter-planetary-flash-car/ffjpplmcceibehbaofplbmcldkmmhcob?hl=en"
         >
           <img
-            class="max-w-xs mx-auto"
+            class="max-w-xs mx-auto sm:max-w-xxs"
             src="@/assets/img/ipfc-extension-demo.gif"
             alt=""
           />

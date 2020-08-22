@@ -6,7 +6,10 @@
         :full-view="false"
         :speed-factor="0.05"
       >
-        <img class="burn max-h-screen" src="@/assets/img/data-bg.png" />
+        <img
+          class="burn max-h-screen sm:max-w-xxs"
+          src="@/assets/img/data-bg.png"
+        />
       </parallax>
       <parallax class="absolute top-1/2 left-1/6" :speed-factor="0.1">
         <h1 class="text-center text-white">BRING</h1>

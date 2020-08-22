@@ -3,7 +3,7 @@
     <div class="section-wrap">
       <h3 class="mb-10 text-center">CONTACT</h3>
       <img
-        class="max-w-xs max-w-full mx-auto my-5"
+        class="max-w-xs max-w-full mx-auto my-5 sm:max-w-xxs"
         src="@/assets/img/eduvault-logo-light.png"
         alt=""
       />
