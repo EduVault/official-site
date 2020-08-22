@@ -15,8 +15,10 @@
           Inter Planetary Flash Cards
           <a class="link" href="https://ipfc.tech">app</a>
         </p>
-        <p>Eduvault <a href="github.com/eduvault" class="link">GitHub</a></p>
-        <p>IPFC <a href="github.com/ipfc" class="link">GitHub</a></p>
+        <p>
+          Eduvault <a href="https://github.com/eduvault" class="link">GitHub</a>
+        </p>
+        <p>IPFC <a href="https://github.com/ipfc" class="link">GitHub</a></p>
         <p>
           HackFS
           <a
@@ -27,7 +29,7 @@
         </p>
         <p>
           Founder Jacob Cohen-Rosenthal’s
-          <a href="jacobcohen-rosenthal.me" class="link">website</a>
+          <a href="https://jacobcohen-rosenthal.me" class="link">website</a>
         </p>
       </div>
     </div>

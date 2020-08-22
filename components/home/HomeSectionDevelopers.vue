@@ -15,8 +15,8 @@
       </p>
       <p class="max-w-sm md:max-w-xl mb-3">
         Contact us for more information, and see our
-        <a href="github.com/eduvault" class="text-blue-400">GitHub</a> for the
-        latest development progress.
+        <a href="https://github.com/eduvault" class="text-blue-400">GitHub</a>
+        for the latest development progress.
       </p>
     </div>
   </div>
