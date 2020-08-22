@@ -10,7 +10,7 @@
         unlocks new possibilities for interoperability between them.
       </p>
       <img
-        class="max-w-xs mx-auto sm:max-w-xxs mt-10"
+        class="max-w-xxs md:max-w-sm mx-auto mt-10"
         src="@/assets/img/ipfc-login.png"
         alt=""
       />

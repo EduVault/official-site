@@ -7,7 +7,7 @@
         src="@/assets/img/eduvault-logo-light.png"
         alt=""
       />
-      <div class="mb-3 max-w-sm md:max-w-xl m-auto">
+      <div class="mb-3 max-w-xxs md:max-w-sm mx-auto mx-auto">
         <p>
           Email: <a class="link" href="info@eduvault.org">info@eduvault.org</a>
         </p>

@@ -7,7 +7,7 @@
         :speed-factor="0.05"
       >
         <img
-          class="burn max-h-screen sm:max-w-xxs"
+          class="burn max-h-screen sm:max-w-xxxs"
           src="@/assets/img/data-bg.png"
         />
       </parallax>

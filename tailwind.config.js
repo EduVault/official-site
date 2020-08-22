@@ -49,6 +49,7 @@ module.exports = {
         screen25: '25vh',
         screen50: '50vh',
         screen75: '75vh',
+        xxxs: '10rem',
         xxs: '15rem',
       },
     },
