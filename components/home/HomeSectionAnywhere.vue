@@ -10,10 +10,13 @@
         unlocks new possibilities for interoperability between them.
       </p>
       <img
-        class="max-w-xs mx-auto my-10"
+        class="max-w-xs mx-auto mt-10"
         src="@/assets/img/ipfc-login.png"
         alt=""
       />
+      <figcaption class="mb-10 mx-auto text-center text-gray-500">
+        One login across apps
+      </figcaption>
       <p class="mb-3 max-w-sm md:max-w-xl mr-auto">
         Holding data hostage and trying to provide every service users might
         need leads to <strong class="font-black">monopoly</strong>, stagnation,
